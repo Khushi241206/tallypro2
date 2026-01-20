@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { Dashboard } from './components/Dashboard';
-import { Daybook } from './components/Daybook';
-import { Reports } from './components/Reports';
-// import { Ledger } from './components/Ledger';
-// import { Stock } from './components/Stock';
+import { Dashboard } from './views/Dashboard';
+import { Daybook } from './views/Daybook';
+import { Reports } from './views/Reports';
+import { Ledger } from './views/Ledger';
+import { Stock } from './views/Stock';
 
 import { transactions, products, parties } from './data/dummyData';
 
